@@ -78,8 +78,8 @@ height: 676px;
 .section-title{
     color: rgb(24, 24, 24);
 font-family: Open Sans;
-font-size: 35px;
-font-weight: 700;
+font-size: 47px;
+font-weight: bolder;
 line-height: 48px;
 letter-spacing: 0%;
 text-align: center;
@@ -176,5 +176,56 @@ text-align: center;
    box-shadow: 0px 6px 50px 0px  rgba(0, 0, 0, 0.30);
     background: rgb(255, 255, 255);
     padding: 30px;
+    border-radius: 10px;
     }
     
+    .resume-container{
+        display: flex;
+        gap:30px;
+        margin-left: 235px;
+        margin-right: 235px;
+        
+
+    }
+    .experience-title{
+        color: rgb(71, 71, 71);
+font-family: Open Sans;
+font-size: 25px;
+font-weight: 700;
+line-height: 34px;
+letter-spacing: 0%;
+text-align: left;
+    }
+    .experience-sub-title{
+        color: rgb(117, 117, 117);
+        font-family: Open Sans;
+        font-size: 20px;
+        font-weight: 600;
+        line-height: 27px;
+        letter-spacing: 0%;
+        text-align: left;
+    }
+    .experience-description{
+        color: rgb(117, 117, 117);
+font-family: Open Sans;
+font-size: 16px;
+font-weight: 400;
+line-height: 28px;
+letter-spacing: 0%;
+text-align: left;
+    }
+    .resume-column-title{
+        color: rgb(71, 71, 71);
+font-family: Open Sans;
+font-size: 30px;
+font-weight: 700;
+line-height: 41px;
+letter-spacing: 0%;
+text-align: left;
+    }
+    .btntwo{
+        display: flex;
+        align-items: center;
+        justify-content: center; 
+      
+    }
